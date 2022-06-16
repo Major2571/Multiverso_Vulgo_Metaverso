@@ -13,6 +13,11 @@
     src: url(../font/Azonix.otf);
 }
 
+@font-face {
+    font-family: mars;
+    src: url(../font/Beyond\ Mars.otf);
+}
+
 
 
 html {
@@ -23,13 +28,17 @@ html {
     margin: 0;
 }
 
-nav ul {
-    background-color: #fd658600;
-    position: relative;
-    z-index: 1;
+nav {
     display: flex;
     justify-content: flex-end;
-    font-family: anurati;
+}
+
+nav ul {
+    background-color: #fd658600;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    font-family: mars;
 }
 
 nav ul li {
@@ -39,6 +48,7 @@ nav ul li {
     position: relative;
     font-size: 20px;
     text-transform: uppercase;
+    
 }
 
 nav ul li a {
@@ -61,7 +71,7 @@ nav ul li a::before {
     
     transform-origin: right;
     transform: scaleX(0);
-    transition: transform .5s ease-in-out;
+    transition: transform .2s ease-in-out;
 }
   
 a:hover::before {
@@ -74,10 +84,9 @@ a:hover::before {
     background-size: cover;
     background-position: right;
 
-    position: absolute;
+    position: relative;
     top: 0;
-    width: 1600px;
-    padding: 200px;
+    padding: 150px;
 }
 
 
@@ -90,7 +99,7 @@ a:hover::before {
 }
 
 .top h1 {
-    margin: 20px;
+    margin: 20px 0px;
     color: #ffffff;
     text-shadow: 0px 2px 10px rgb(0, 0, 0), 0px 2px 19px rgb(43, 128, 226);
     font-size: 70px;
@@ -122,4 +131,44 @@ button:hover {
     background-position: 100% 20%;
     transition: all .5s ease-in-out;
 }
+
+.middle {
+    background-image: url(../img/middle.jpg);
+    background-position: center;
+    background-size: contain;
+
+    display: flex;
+    position: relative;
+    top: 0;
+    padding: 20px 10px;
+
+}
+
+.middle div {
+    margin: 30px 60px 50px;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: linear-gradient( #ffffff00, #2e0969b7, #8f10f7b7, rgba(255, 255, 255, 0.082));
+    position: relative;
+
+}
+
+.middle div h1 {
+    margin: 0px 0px 20px 0px;
+    color: #ffffff;
+    text-shadow: 0px 2px 10px rgb(0, 0, 0), 0px 2px 30px #02f7ff;
+    font-size: 70px;
+    font-family: glitch;
+    text-transform: uppercase;
+}
+
+.middle div p {
+    padding: 30px 130px;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: azonix;
+    text-shadow: 0px 2px 10px rgb(0, 0, 0);
+}
+
 
