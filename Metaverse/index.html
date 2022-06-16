@@ -3,9 +3,16 @@
 <head>
     <meta charset="UTF-8">
 
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/style_cards.css">
+    <link rel="stylesheet" href="./style/style_glowing_icons.css">
 
     <title>Metaverso</title>
+    <link rel="icon" type="image/x-icon" href="./img/vr_icon.png">
 
 </head>
 
@@ -27,24 +34,84 @@
             <div class="top">
                 <h1> Metaverso </h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos amet saepe esse ex officiis quidem earum </p>
-                <button> START </button>
+
+                    <a href="#middle" class="active">
+                        <button> 
+                             START
+                        </button>
+                    </a>
+
             </div>
 
             <div class="middle">
+                <a name="middle"> <!-- link vertical -->
                 <div>
                     <h1>o Metaverso</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, amet voluptate perspiciatis laudantium tenetur debitis animi ex doloribus ut, in dicta quo incidunt assumenda rerum beatae eos velit iste quibusdam!</p>
                 </div>
             </div>
 
-            <div class="card">
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error impedit sed totam eum, et quia voluptatibus debitis, fugit accusamus modi delectus magnam ratione laudantium asperiores saepe tempore quasi accusantium nesciunt.</p>
+            <div class="curiosidade">
+                <div class="ineer">
+                    <h2>Curiosidade</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias magni deleniti error quia aliquam reprehenderit est ipsum inventore impedit aspernatur, corrupti aut ratione earum fugit laboriosam delectus tempore quo repellendus.</p>
                 </div>
-                <img src="./img/card.jpg" alt="">
+                <img class="card_img" src="./img/card.jpg" alt="">
             </div>
 
+            <div class="cards">
 
+                <h1> Tecnologias Envolvidas </h1>
+                
+                <div class="container">
+                    <div class="card">
+                        <div class="imgBx">
+                            <img class="img" src="./img/vr.jpg">
+                        </div>
+                        <div class="conteudo">
+                            <h2>Realidade Virtual</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, voluptatibus rerum eius quisquam, molestiae earum, aut et molestias ad quas modi tenetur eligendi.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imgBx">
+                            <img class="img" src="./img/va.png">
+                        </div>
+                        <div class="conteudo">
+                            <h2>Realidade Aumentada</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, voluptatibus rerum eius quisquam, molestiae earum, aut et molestias ad quas modi tenetur eligendi.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imgBx">
+                            <img class="img" src="./img/cripto.jpg">
+                        </div>
+                        <div class="conteudo">
+                            <h2>Blockchain e Criptomoedas</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, voluptatibus rerum eius quisquam, molestiae earum, aut et molestias ad quas modi tenetur eligendi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+
+            <div class="empresas">
+                <h2> Empresas que estão investindo no Metaverso</h2>
+                <div class="container">
+                        <div class="icons">
+                            <img src="./img/adidas.png" alt="adidas" style="animation-delay: 0.1s;" rel="icon">
+                            <img src="./img/disney.png" alt="disney" style="animation-delay: 0.3s;" >
+                            <img src="./img/microsoft.png" alt="microsoft" style="animation-delay: 0.5s;">
+                            <img src="./img/meta.png" alt="meta" style="animation-delay: 0.7s;" >
+                            <img src="./img/nike.png" alt="nike" style="animation-delay: 0.9s;">
+                            <img src="./img/nvidia.png" alt="nvidia" style="animation-delay: 1.1s;">
+                        </div>
+                </div>
+            </div>
+
+            
         </section>
 
     </main>

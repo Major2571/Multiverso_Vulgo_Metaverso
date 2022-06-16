@@ -1,0 +1,41 @@
+@keyframes animate {
+    from {
+      filter: hue-rotate(0deg);
+    }
+    to {
+      filter: hue-rotate(360deg);
+    }
+}
+
+.empresas {
+    background-image: linear-gradient(180deg, #18183B 0%, #0E2159 50%, #ac43d9a2 100%);
+}
+
+.empresas h2 {
+    margin: 0px 300px;
+    color: #ffffff;
+    text-shadow: 0px 2px 10px rgb(0, 0, 0), 0px 2px 19px rgb(43, 128, 226);
+    font-size: 70px;
+    font-family: mars;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.empresas .container .icons {
+    margin: 50px;
+}
+
+.empresas .container .icons img{
+    width: 150px;
+    padding: 30px;
+    border-radius: 30px;
+    margin: 20px 30px;
+
+    box-shadow: 0px 2px 60px #0602ffd7, 10px 1px 90px #05f7ff28,
+    2px 2px 100px #3990dc5e, 2px 2px 100px #ffffff41, inset 2px 2px 100px #aaaabb15,
+    inset 2px 2px 100px #0000004d, inset 2px 2px 100px #00000000,
+    inset 2px 2px 100px #0000000c;
+    animation: animate 3s linear infinite;
+}
+
+

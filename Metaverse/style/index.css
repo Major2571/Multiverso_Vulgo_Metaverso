@@ -22,6 +22,8 @@
 
 html {
     background-color: #200552;
+    scroll-behavior: smooth !important; /* esse cara q deixa a navegação suave :)*/ 
+    
 }
 
 * {
@@ -86,9 +88,13 @@ a:hover::before {
 
     position: relative;
     top: 0;
+    height: 750px;
     padding: 150px;
 }
 
+.top p, h1, button {
+    margin: 0px 0px 0px 70px;
+}
 
 .top p {
     position: relative;
@@ -99,7 +105,7 @@ a:hover::before {
 }
 
 .top h1 {
-    margin: 20px 0px;
+    margin: 150px 0px 20px 70px;
     color: #ffffff;
     text-shadow: 0px 2px 10px rgb(0, 0, 0), 0px 2px 19px rgb(43, 128, 226);
     font-size: 70px;
@@ -107,7 +113,7 @@ a:hover::before {
     text-transform: uppercase;
 }
 
-button {
+.top button {
     background-image: linear-gradient(to right, #12a9e0, #21da87, #10f188, #2b8fb6);
     box-shadow: 0 4px 15px rgba(49, 196, 190, 0.75);
     background-size: 300% 150%;
@@ -120,6 +126,7 @@ button {
     padding: 25px;
     cursor: pointer;
 
+    text-decoration: none;
     color: #ffffff;
     text-shadow: 0px 2px 10px rgb(0, 0, 0), 0px 2px 19px rgb(43, 128, 226);
     font-size: 23px;
@@ -127,16 +134,24 @@ button {
     font-family: glitch;
 }
 
-button:hover {
+.top button:hover {
     background-position: 100% 20%;
     transition: all .5s ease-in-out;
 }
 
+.top a {
+    transition: all 200ms;
+}
+
+
+
+
 .middle {
+    background-color: #18183B;
     background-image: url(../img/middle.jpg);
     background-position: center;
     background-size: contain;
-
+    height: 520px;
     display: flex;
     position: relative;
     top: 0;
@@ -151,7 +166,6 @@ button:hover {
     text-align: center;
     background-image: linear-gradient( #ffffff00, #2e0969b7, #8f10f7b7, rgba(255, 255, 255, 0.082));
     position: relative;
-
 }
 
 .middle div h1 {
