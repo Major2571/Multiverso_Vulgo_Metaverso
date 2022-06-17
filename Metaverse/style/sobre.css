@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+}
+
+.about {
+    background-image: linear-gradient(180deg, #ac43d9a2  10%, #0E2159 50%, hsl(240, 42%, 16%) 100%);
+    padding: 50px;
+    position: relative;
+    top: 0;
+}
+
+.about div {
+    margin: 30px 60px 50px;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: linear-gradient( #ffffff00, #2e0969b7, #8f10f7b7, #ffffff00);
+    position: relative;
+}
+
+.about div h1 {
+    margin: 0px 0px 20px 0px;
+    color: #ffffff;
+    text-shadow: 0px 2px 10px rgb(0, 0, 0), 0px 2px 30px #02f7ff;
+    font-size: 70px;
+    font-family: glitch;
+    text-transform: uppercase;
+}
+
+
+.about div p {
+    padding: 30px 130px;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: azonix;
+    text-shadow: 0px 2px 10px rgb(0, 0, 0);
+}
+
+
+
+.about .nome {
+    background-color: #02f7ff00;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.about .nome .card {
+    margin: 0px 30px 50px;
+    width: 310px;
+    padding: 10px !important;
+}
+
+.about .nome .card p {
+    padding: 30px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: azonix;
+    text-shadow: 0px 2px 10px rgb(0, 0, 0);
+}
+
+.about .nome .card h2, h2 {
+    margin: 0px 0px 20px 0px;
+    color: #ffffff;
+    text-shadow: 0px 2px 10px rgb(0, 0, 0), 0px 2px 30px #02f7ff;
+    font-size: 40px;
+    font-family: mars;
+    text-transform: uppercase;
+}
+
+
+
+
+
+.fontes {
+    background-image: linear-gradient(360deg, #ac43d9a2  10%, #0E2159 50%, hsl(240, 42%, 16%) 100%);
+    padding: 50px;
+}
+
+.fontes h1 {
+    color: #ffffff;
+    text-shadow: 0px 2px 10px rgb(0, 0, 0), 0px 2px 30px #02f7ff;
+    font-size: 40px;
+    font-family: mars;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 100px;
+}
+
+.fontes .container button {
+    background-image: linear-gradient(to right, #12a9e0, #21da87, #10f188, #2b8fb6);
+    box-shadow: 0 4px 15px rgba(49, 196, 190, 0.75);
+    background-size: 300% 150%;
+    /* esses carinhas que dão o efeito do gradiente de 4 cores */
+
+    margin: 40px;
+    border: none;
+    width: 300px;
+    border-radius: 100px;
+    padding: 25px;
+    cursor: pointer;
+}
+
+.fontes .container button:hover {
+    background-position: 100% 20%;
+    transition: all .5s ease-in-out;
+}
+
+.fontes .container button a {
+    transition: all 200ms;
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0px 2px 10px rgb(0, 0, 0), 0px 2px 19px rgb(43, 128, 226);
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family: glitch;
+}
