@@ -150,3 +150,119 @@
 }
 
 
+
+.economia {
+    background-image: linear-gradient(180deg, #18183B 0%, #0E2159 50%, #ac43d9a2 100%);
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+
+
+.economia h1 {
+    margin: 20px 150px 20px 150px;
+    color: #ffffff;
+    text-shadow: 0px 2px 10px rgb(0, 0, 0), 0px 2px 30px #02f7ff;
+    font-size: 70px;
+    font-family: glitch;
+    text-transform: uppercase;
+}
+
+.economia p {
+    padding: 30px 130px;
+    font-size: 35px;
+    color: #ffffff;
+    font-family: azonix;
+    text-shadow: 0px 2px 10px rgb(0, 0, 0);
+}
+
+
+.economia .cards2 {
+    position: relative;
+    margin: 20px 200px;
+    padding: 20px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.economia .cards2 .card {
+    position: relative;
+    height: 300px;
+    background: #040740;
+    border: none;
+    display: flex;
+    width: 600px;
+    margin: 30px 0;
+    border-radius: 10px;
+    box-shadow: 0px 1px 20px rgb(0, 0, 0), -15px -15px 90px rgb(255, 0, 149), 15px 15px 90px rgb(0, 38, 255);
+}
+
+.economia .cards2 .card .imgBx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, #6B135C 0%, #B31F5A 50%, #9F3B74 100%);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+.economia .cards2 .card:hover .imgBx {
+    width: 250px;
+    height: 200px;
+    left: -75px;
+    top: calc(40% - 75px);  
+    transition: 0.5s ease-in-out;
+    background-image: linear-gradient(135deg, #860971 0%, #B31F5A 50%, #9F3B74 100%);
+    box-shadow: 0px 1px 20px rgb(0, 0, 0);
+}
+
+
+.economia .cards2 .card .imgBx:before {
+    content: attr(data-text);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffffe8;
+    font-weight: 100;
+    font-family: mars;
+}
+
+.economia .cards2 .card .imgBx img {
+    max-width: 200px;
+    transition: 0.5s ease-in-out;
+}
+
+.economia .cards2 .card:hover .imgBx img {
+    max-width: 110px;
+}
+
+
+.economia .card .content p {
+    font-size: 22px;
+    position: absolute;
+    top: -20px;
+    right: 0;
+    width: calc(72% - 50px);
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
