@@ -11,13 +11,13 @@
     background-color: #72414100;
     border: solid rgba(196, 196, 197, 0.986);
     border-width: 0px 10px 10px;
-    border-radius: 100px;
+    border-radius: 10px;
     align-items: center;
     margin: 50px 100px;
 }
 
 .empresas h2 {
-    top: -50px;
+    top: -60px;
     z-index: 1;
     position: relative;
     color: #ffffff;
@@ -28,6 +28,18 @@
     text-align: center;
 }
 
+.empresas p {
+    padding: 0px 100px;
+    margin: 50px auto;
+    font-size: 25px;
+    line-height: 1.5;
+    font-family: consolas;
+}
+
+.empresas p span {
+    color: #05ffacfa;
+}
+
 .empresas .container {
     background-color: rgba(7, 32, 116, 0);
     display: flex;
@@ -35,7 +47,7 @@
     align-items: center;
     flex-wrap: wrap;
     position: relative;
-    margin: auto;
+    margin: 0px auto;
     max-width: 820px;
 }
 

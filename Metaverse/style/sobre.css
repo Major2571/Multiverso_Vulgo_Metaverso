@@ -39,7 +39,6 @@
 
 
 .about .nome {
-    background-color: #02f7ff00;
     margin: 0px;
     padding: 0px;
     display: flex;
@@ -49,23 +48,22 @@
 }
 
 .about .nome .card {
-    margin: 0px 30px 50px;
-    width: 310px;
-    padding: 10px !important;
+    background-image: url(https://public.onlyfans.com/files/a/ao/aoo/aoo9zupm5etuc5yzwmiewy4p6lsqpec31596025641/header.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0px 20px 50px;
+    width: 290px;
+    padding: 50px !important;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 1px 20px rgb(0, 0, 0), -15px -15px 90px rgba(255, 0, 149, 0.788), 15px 15px 90px rgb(0, 86, 245);
 }
 
-.about .nome .card p {
-    padding: 30px;
-    font-size: 20px;
-    color: #ffffff;
-    font-family: azonix;
-    text-shadow: 0px 2px 10px rgb(0, 0, 0);
-}
 
 .about .nome .card h2, h2 {
-    margin: 0px 0px 20px 0px;
+    margin: auto 10px auto 10px;
     color: #ffffff;
-    text-shadow: 0px 2px 10px rgb(0, 0, 0), 0px 2px 30px #02f7ff;
+    text-shadow: 0px 2px 10px rgb(0, 0, 0), 0px 2px 10px #00eeff;
     font-size: 40px;
     font-family: mars;
     text-transform: uppercase;
