@@ -30,10 +30,11 @@
 
 .empresas p {
     padding: 0px 100px;
-    margin: 50px auto;
-    font-size: 25px;
+    margin: -50px auto 70px;
+    font-size: 1.7em;
     line-height: 1.5;
-    font-family: consolas;
+    font-family: 'quantico';
+    text-transform: uppercase;
 }
 
 .empresas p span {
@@ -47,6 +48,7 @@
     align-items: center;
     flex-wrap: wrap;
     position: relative;
+    top: -50px;
     margin: 0px auto;
     max-width: 820px;
 }

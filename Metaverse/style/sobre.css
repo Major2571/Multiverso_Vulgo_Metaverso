@@ -4,32 +4,34 @@
 
 .about {
     background-image: linear-gradient(180deg, #ac43d9a2  10%, #0E2159 50%, hsl(240, 42%, 16%) 100%);
-    padding: 50px;
     position: relative;
+    text-align: center;
     top: 0;
 }
 
-.about div {
-    margin: 30px 60px 50px;
-    padding: 50px;
-    border-radius: 10px;
-    text-align: center;
-    background-image: linear-gradient( #ffffff00, #2e0969b7, #8f10f7b7, #ffffff00);
+.about .work {
+    background-image: url(https://i.pinimg.com/originals/91/36/35/9136359d1367bf96a345266859cdf919.png);
+    background-size: cover;
+    background-position: center;
     position: relative;
+    top: 0;
+    max-height: 1000px;
+    padding: 150px;
+    
 }
 
-.about div h1 {
+.about h1 {
     margin: 0px 0px 20px 0px;
     color: #ffffff;
-    text-shadow: 0px 2px 10px rgb(0, 0, 0), 0px 2px 30px #02f7ff;
+    text-shadow: 0px 2px 10px rgb(0, 0, 0), 0px 2px 20px #ff02c8;
     font-size: 70px;
     font-family: glitch;
     text-transform: uppercase;
 }
 
 
-.about div p {
-    padding: 30px 130px;
+.about .work p {
+    margin: 0px 60px;
     font-size: 30px;
     color: #ffffff;
     font-family: azonix;
@@ -39,7 +41,7 @@
 
 
 .about .nome {
-    margin: 0px;
+    margin: 50px auto 0;
     padding: 0px;
     display: flex;
     justify-content: center;
@@ -48,22 +50,75 @@
 }
 
 .about .nome .card {
+    width: 350px;
+    height: 100px;
+    position: relative;
+    margin: 30px 20px;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s ease-in-out;
+
     background-image: url(https://public.onlyfans.com/files/a/ao/aoo/aoo9zupm5etuc5yzwmiewy4p6lsqpec31596025641/header.jpg);
     background-position: center;
     background-size: cover;
-    margin: 0px 20px 50px;
-    width: 290px;
-    padding: 50px !important;
-    align-items: center;
-    text-align: center;
-    box-shadow: 0px 1px 20px rgb(0, 0, 0), -15px -15px 90px rgba(255, 0, 149, 0.788), 15px 15px 90px rgb(0, 86, 245);
+
+    border-radius: 10px;
+    box-shadow: 0px 2px 20px rgb(8, 184, 207), 0px 2px 40px rgb(138, 3, 143);
 }
+
+.about .nome .card:hover {
+    height: 300px;
+}
+
+
+.about .nome .card .sobre {
+    position: relative;
+    margin-top: -10px;
+    padding: 10px 15px;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    color: #fff;
+    margin: auto;
+    background-image: linear-gradient( #080606b2, rgba(0, 0, 0, 0.692));
+    border-radius: 0;
+}
+
+
+.about .nome .card:hover .sobre {
+    visibility: visible;
+    opacity: 1;
+    margin-top: 10px;
+    transition-delay: 0.1s;
+}
+
+
+.about .nome .card .sobre h2 {
+    font-size: 35px;
+    padding: 0px 30px;
+    font-family: mars;
+    text-shadow: 0px 2px 7px rgb(0, 0, 0), 0px 2px 15px rgb(21, 1, 134);
+    margin: 0px 0px 10px 0px;
+    
+}
+
+
+.about .nome .card .sobre p {
+    font-size: 22px;
+    line-height: 1.3;
+    font-family: 'consolas';
+    text-transform: uppercase;
+    text-shadow: 0px 2px 10px rgb(0, 0, 0);
+}
+
 
 
 .about .nome .card h2, h2 {
     margin: auto 10px auto 10px;
     color: #ffffff;
-    text-shadow: 0px 2px 10px rgb(0, 0, 0), 0px 2px 10px #00eeff;
+    text-shadow: 0px 2px 10px rgb(0, 0, 0), 0px 2px 10px #0400ff;
     font-size: 40px;
     font-family: mars;
     text-transform: uppercase;
@@ -93,12 +148,12 @@
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
-    padding: 100px;
+    padding: 20px 100px;
 }
 
 .fontes .container button {
     background-image: linear-gradient(to right, #12a9e0, #21da87, #10f188, #2b8fb6);
-    box-shadow: 0 4px 15px rgba(49, 196, 190, 0.75);
+    box-shadow: 0 4px 15px rgba(5, 224, 217, 0.75);
     background-size: 300% 150%;
     /* esses carinhas que dão o efeito do gradiente de 4 cores */
 
