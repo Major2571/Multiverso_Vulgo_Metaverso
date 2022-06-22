@@ -31,15 +31,12 @@
 .empresas p {
     padding: 0px 100px;
     margin: -50px auto 70px;
-    font-size: 1.7em;
-    line-height: 1.5;
+    font-size: 1.8em;
+    line-height: 1.7;
     font-family: 'quantico';
-    text-transform: uppercase;
+    text-transform: none;
 }
 
-.empresas p span {
-    color: #05ffacfa;
-}
 
 .empresas .container {
     background-color: rgba(7, 32, 116, 0);
@@ -50,7 +47,7 @@
     position: relative;
     top: -50px;
     margin: 0px auto;
-    max-width: 820px;
+    max-width: auto;
 }
 
 
